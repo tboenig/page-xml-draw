@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from page_xml_draw.struct.xml import XmlTraverser
-from page_xml_draw.struct.json import JsonInstance
+from page_xml_draw.format.xml import XmlTraverser
+from page_xml_draw.format.json import JsonInstance
 from page_xml_draw.cli import get_opts
 from page_xml_draw.core import ImageDrawer
 

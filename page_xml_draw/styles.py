@@ -5,9 +5,9 @@ import cv2
 
 from webcolors import CSS3, CSS3_NAMES_TO_HEX, name_to_hex, hex_to_rgb
 
-from page_xml_draw.struct.xml import XmlTag
-from page_xml_draw.struct.json import JsonInstance
-from page_xml_draw.struct.html import HtmlMap, HtmlArea
+from page_xml_draw.format.xml import XmlTag
+from page_xml_draw.format.json import JsonInstance
+from page_xml_draw.format.html import HtmlMap, HtmlArea
 
 FALLBACK_OPACITY = 0.3
 FALLBACK_THICKNESS = 1

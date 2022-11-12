@@ -4,7 +4,7 @@ import argparse
 from pathlib import Path
 from json import loads
 
-from page_xml_draw.struct.json import JsonSchema, JsonInstance
+from page_xml_draw.format.json import JsonSchema, JsonInstance
 
 
 def kebab2camel(string):
@@ -39,7 +39,7 @@ class Namespace(argparse.Namespace):
         # Save json schema:
         self.schema = schema
 
-        # Initialize instance of json struct to be built:
+        # Initialize instance of json format to be built:
         self.instance = {}
 
         # Initialize stack with current annotation name, schema and instance:

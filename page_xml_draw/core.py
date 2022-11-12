@@ -5,9 +5,9 @@ import cv2
 
 from pathlib import Path
 
-from page_xml_draw.struct.xml import XmlTraverser
-from page_xml_draw.struct.json import JsonInstance
-from page_xml_draw.struct.html import HtmlMap
+from page_xml_draw.format.xml import XmlTraverser
+from page_xml_draw.format.json import JsonInstance
+from page_xml_draw.format.html import HtmlMap
 from page_xml_draw.gends.page import PcGtsType
 from page_xml_draw.styles import StyleSpec
 
