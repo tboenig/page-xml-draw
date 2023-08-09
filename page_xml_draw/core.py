@@ -66,7 +66,7 @@ class Drawing:
 
         weight_mask = np.zeros(
             (image.shape[0], image.shape[1], 1),
-            dtype=np.float
+            dtype=float
         )
 
         for spec in specs:
